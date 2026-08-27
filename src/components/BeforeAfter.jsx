@@ -51,20 +51,14 @@ export default function BeforeAfter() {
 
             <div className="mock-hero">
               <h4>Landscaping that speaks<br />for itself.</h4>
-              <p>Serving the Salt Lake valley since 2014.</p>
+              <p>Serving local homeowners since 2014.</p>
               <span className="mock-cta">Get a quote →</span>
             </div>
 
-            <div className="mock-photo-row">
-              <div className="mock-photo mock-photo-leaf">
-                <span className="mock-photo-icon">🌿</span>
-              </div>
-              <div className="mock-photo mock-photo-sun">
-                <span className="mock-photo-icon">🏡</span>
-              </div>
-              <div className="mock-photo mock-photo-sky">
-                <span className="mock-photo-icon">✂️</span>
-              </div>
+            <div className="mock-gallery">
+              <div className="mock-shot mock-shot-lawn" />
+              <div className="mock-shot mock-shot-stone" />
+              <div className="mock-shot mock-shot-wide" />
             </div>
 
             <div className="mock-strip">

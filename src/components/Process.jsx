@@ -5,7 +5,7 @@ const STEPS = [
   {
     n: '01',
     title: 'I find you',
-    desc: "I look for Utah businesses without a site, or with one that's overdue for an update.",
+    desc: "I look for local businesses without a site, or with one that's overdue for an update.",
   },
   {
     n: '02',

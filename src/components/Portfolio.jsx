@@ -32,7 +32,7 @@ export default function Portfolio() {
                 </div>
                 <p className="case-desc">
                   Built and launched the full site, booking flow, and local
-                  ad presence for a Salt Lake City window-washing business —
+                  ad presence for a window-washing business —
                   live at rolfbros.com.
                 </p>
                 <div className="case-tags">

@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="container footer-inner">
         <span className="nav-mark">Studio<span>.</span></span>
-        <span className="footer-note">Based in Utah · {new Date().getFullYear()}</span>
+        <span className="footer-note">© {new Date().getFullYear()}</span>
       </div>
     </footer>
   );

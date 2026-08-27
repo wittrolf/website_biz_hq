@@ -25,7 +25,7 @@ export default function Hero() {
             your website.
           </motion.h1>
           <motion.p className="hero-sub" variants={rise} initial="hidden" animate="show" custom={2}>
-            I build clean, modern websites for Utah service businesses —
+            I build clean, modern websites for local service businesses —
             landscapers, contractors, cleaners, and more. Before you pay
             anything, I'll show you exactly what yours could look like.
           </motion.p>

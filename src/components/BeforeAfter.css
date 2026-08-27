@@ -89,24 +89,36 @@
   border-radius: 2px;
 }
 
-.mock-photo-row {
-  display: flex;
+.mock-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 8px;
-  margin-bottom: 14px;
+  margin: 2px 0 12px;
 }
-.mock-photo {
-  flex: 1;
-  aspect-ratio: 1;
+.mock-shot {
+  aspect-ratio: 4 / 3;
   border-radius: 3px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: clamp(14px, 3vw, 22px);
   border: 1px solid var(--hairline);
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.15);
 }
-.mock-photo-leaf { background: linear-gradient(150deg, #cfe0c4, #8fae7c); }
-.mock-photo-sun { background: linear-gradient(150deg, var(--brass-soft), #c99a55); }
-.mock-photo-sky { background: linear-gradient(150deg, #cdd9e4, var(--navy-soft)); }
+/* lawn / planting — cool green, high sun */
+.mock-shot-lawn {
+  background:
+    radial-gradient(circle at 30% 20%, rgba(255, 255, 255, 0.25), transparent 50%),
+    linear-gradient(160deg, #3f6a2f 0%, #6f9a4a 55%, #93ab5c 100%);
+}
+/* hardscape / pavers — warmer stone tones */
+.mock-shot-stone {
+  background:
+    radial-gradient(circle at 68% 24%, rgba(255, 255, 255, 0.22), transparent 55%),
+    linear-gradient(145deg, #5a6b3c 0%, #8a7f4a 42%, #a3823f 100%);
+}
+/* wide outdoor shot — sky across the top */
+.mock-shot-wide {
+  background:
+    radial-gradient(circle at 42% 14%, rgba(255, 255, 255, 0.28), transparent 46%),
+    linear-gradient(180deg, #9db9cf 0%, #86a892 36%, #5a7c40 68%, #46662f 100%);
+}
 
 .mock-strip {
   display: flex;

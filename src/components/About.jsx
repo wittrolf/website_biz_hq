@@ -19,7 +19,7 @@ export default function About() {
           <Reveal delay={0.15}>
             <p>
               That's the whole reason this exists: to build sites for people
-              running real, local, hands-on businesses across Utah — without
+              running real, local, hands-on service businesses — without
               you having to figure out any of the technical side yourself.
             </p>
           </Reveal>
