@@ -1,0 +1,47 @@
+.process-title {
+  font-size: clamp(28px, 3.6vw, 40px);
+  margin: 16px 0 56px;
+  max-width: 20ch;
+}
+
+.process-steps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.process-step {
+  border-top: 2px solid var(--ink);
+  padding-top: 18px;
+}
+
+.process-num {
+  display: block;
+  font-family: var(--font-mono);
+  color: var(--brass);
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.process-step h3 {
+  font-size: 19px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.process-step p {
+  color: var(--ink-soft);
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+@media (max-width: 860px) {
+  .process-steps {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 560px) {
+  .process-steps {
+    grid-template-columns: 1fr;
+  }
+}

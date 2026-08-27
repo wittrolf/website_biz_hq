@@ -1,0 +1,25 @@
+.about-grid {
+  display: grid;
+  grid-template-columns: 0.5fr 1.5fr;
+  gap: clamp(30px, 6vw, 80px);
+}
+
+.about-content h2 {
+  font-size: clamp(24px, 3vw, 32px);
+  font-weight: 500;
+  line-height: 1.35;
+  margin-bottom: 26px;
+}
+
+.about-content p {
+  color: var(--ink-soft);
+  font-size: 17px;
+  line-height: 1.6;
+  max-width: 60ch;
+}
+
+@media (max-width: 760px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+}

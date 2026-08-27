@@ -1,0 +1,48 @@
+import { motion } from 'framer-motion';
+import BeforeAfter from './BeforeAfter';
+import './Hero.css';
+
+const rise = {
+  hidden: { opacity: 0, y: 22 },
+  show: (i = 0) => ({
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.7, delay: 0.15 + i * 0.1, ease: [0.22, 1, 0.36, 1] },
+  }),
+};
+
+export default function Hero() {
+  return (
+    <section id="top" className="hero">
+      <div className="container hero-grid">
+        <div className="hero-copy">
+          <motion.p className="eyebrow" variants={rise} initial="hidden" animate="show" custom={0}>
+            Websites for local businesses
+          </motion.p>
+          <motion.h1 variants={rise} initial="hidden" animate="show" custom={1}>
+            This could be
+            <br />
+            your website.
+          </motion.h1>
+          <motion.p className="hero-sub" variants={rise} initial="hidden" animate="show" custom={2}>
+            I build clean, modern websites for Utah service businesses —
+            landscapers, contractors, cleaners, and more. Before you pay
+            anything, I'll show you exactly what yours could look like.
+          </motion.p>
+          <motion.div className="hero-actions" variants={rise} initial="hidden" animate="show" custom={3}>
+            <a href="#contact" className="btn btn-primary">Get your free concept</a>
+            <a href="#work" className="btn btn-ghost">See the work</a>
+          </motion.div>
+        </div>
+        <motion.div
+          className="hero-visual"
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.35, ease: [0.22, 1, 0.36, 1] }}
+        >
+          <BeforeAfter />
+        </motion.div>
+      </div>
+    </section>
+  );
+}
