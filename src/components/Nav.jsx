@@ -20,7 +20,7 @@ export default function Nav() {
   return (
     <header className={`nav ${scrolled ? 'nav-scrolled' : ''}`}>
       <div className="container nav-inner">
-        <a href="#top" className="nav-mark">Studio<span>.</span></a>
+        <a href="#top" className="nav-mark">Dovetail<span>.</span></a>
         <nav className="nav-links">
           {LINKS.map((l) => (
             <a key={l.href} href={l.href}>{l.label}</a>
