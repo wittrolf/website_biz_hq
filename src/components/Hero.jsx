@@ -25,14 +25,17 @@ export default function Hero() {
             your website.
           </motion.h1>
           <motion.p className="hero-sub" variants={rise} initial="hidden" animate="show" custom={2}>
-            I build clean, modern websites for local service businesses —
-            landscapers, contractors, cleaners, and more. Before you pay
-            anything, I'll show you exactly what yours could look like.
+            I design modern websites for local service businesses — sites that
+            make you look established and turn visitors into customers. Before
+            you decide anything, I'll build a free preview of yours.
           </motion.p>
           <motion.div className="hero-actions" variants={rise} initial="hidden" animate="show" custom={3}>
-            <a href="#contact" className="btn btn-primary">Get your free concept</a>
+            <a href="#contact" className="btn btn-primary">Get a free preview</a>
             <a href="#work" className="btn btn-ghost">See the work</a>
           </motion.div>
+          <motion.p className="hero-note" variants={rise} initial="hidden" animate="show" custom={4}>
+            The preview's free — no commitment either way.
+          </motion.p>
         </div>
         <motion.div
           className="hero-visual"

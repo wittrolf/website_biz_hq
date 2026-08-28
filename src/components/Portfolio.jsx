@@ -6,10 +6,10 @@ export default function Portfolio() {
     <section id="work" className="section section-border-top portfolio">
       <div className="container">
         <Reveal>
-          <p className="eyebrow">Featured work</p>
+          <p className="eyebrow">Recent work</p>
         </Reveal>
         <Reveal delay={0.05}>
-          <h2 className="portfolio-title">A few places I've put this to work.</h2>
+          <h2 className="portfolio-title">Real work, already live.</h2>
         </Reveal>
 
         <div className="portfolio-list">
@@ -31,14 +31,14 @@ export default function Portfolio() {
                   <span className="case-arrow">↗</span>
                 </div>
                 <p className="case-desc">
-                  Built and launched the full site, booking flow, and local
-                  ad presence for a window-washing business —
-                  live at rolfbros.com.
+                  The full website, booking flow, and local ad setup for a
+                  window-washing company — built, launched, and running at
+                  rolfbros.com.
                 </p>
                 <div className="case-tags">
                   <span>Full build</span>
                   <span>Local service</span>
-                  <span>Live client</span>
+                  <span>Live site</span>
                 </div>
               </div>
             </a>
@@ -54,11 +54,11 @@ export default function Portfolio() {
                   <h3>Yours, next.</h3>
                 </div>
                 <p className="case-desc">
-                  Before we talk pricing, I build a free concept of what
-                  your site could look like — tailored to your business.
+                  Before we talk pricing, I'll build a free preview of what
+                  your site could look like — designed around your business.
                 </p>
                 <div className="case-tags">
-                  <span>Free concept</span>
+                  <span>Free preview</span>
                   <span>No obligation</span>
                 </div>
               </div>

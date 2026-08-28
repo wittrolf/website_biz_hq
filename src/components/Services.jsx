@@ -12,7 +12,7 @@ const SERVICES = [
   },
   {
     name: 'Website care',
-    desc: 'Once it\'s live, email me when you need something changed. I\'ll take it from there.',
+    desc: 'After launch, just email me when something needs to change — new photos, hours, services, prices. I handle it.',
   },
 ];
 

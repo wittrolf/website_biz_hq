@@ -26,7 +26,7 @@ export default function Nav() {
             <a key={l.href} href={l.href}>{l.label}</a>
           ))}
         </nav>
-        <a href="#contact" className="nav-cta">Get a free concept</a>
+        <a href="#contact" className="nav-cta">Get a free preview</a>
       </div>
     </header>
   );

@@ -9,7 +9,7 @@ const STEPS = [
   },
   {
     n: '02',
-    title: 'I build a free concept',
+    title: 'I build a free preview',
     desc: 'Before any conversation about money, I design and build a real, working version of your new site.',
   },
   {
@@ -44,6 +44,11 @@ export default function Process() {
             </Reveal>
           ))}
         </div>
+        <Reveal delay={0.1}>
+          <a href="#contact" className="process-cta">
+            Ready to see yours? Get a free preview <span aria-hidden="true">→</span>
+          </a>
+        </Reveal>
       </div>
     </section>
   );

@@ -47,7 +47,7 @@ export default function Contact() {
           <Reveal delay={0.1}>
             <p className="contact-sub">
               Tell me about your business and I'll follow up — no cost, no
-              obligation, just a real concept for you to look at.
+              obligation, just a real preview for you to look at.
             </p>
           </Reveal>
         </div>

@@ -35,6 +35,29 @@
   line-height: 1.55;
 }
 
+.process-cta {
+  display: inline-block;
+  margin-top: 48px;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  color: var(--navy);
+  border-bottom: 1px solid var(--hairline);
+  padding-bottom: 3px;
+  transition: border-color 0.25s ease, color 0.25s ease;
+}
+.process-cta:hover {
+  color: var(--ink);
+  border-color: var(--ink);
+}
+.process-cta span {
+  display: inline-block;
+  transition: transform 0.25s ease;
+}
+.process-cta:hover span {
+  transform: translateX(3px);
+}
+
 @media (max-width: 860px) {
   .process-steps {
     grid-template-columns: 1fr 1fr;
